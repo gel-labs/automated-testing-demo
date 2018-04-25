@@ -1,3 +1,5 @@
 {
-  "test_sample.py::test2_who_da_man": true
+  "test_sample.py::test2_who_da_man": true,
+  "test_sample.py::test_compound_interest": true,
+  "test_sample.py::test_who_da_man": true
 }

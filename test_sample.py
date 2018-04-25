@@ -1,11 +1,4 @@
-import pytest
+import app
 
-def who_da_man():
-    return 'Greg'
-
-
-def test_who_da_man():
-    assert who_da_man() == 'Greg'
-
-def test2_who_da_man():
-    assert who_da_man() == 'lj'
+def test_compound_interest():
+    assert app.compound_interest(1000, 0.04, 100) == 2199761.25634
